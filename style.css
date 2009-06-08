@@ -1,7 +1,11 @@
-body {
-background: #333333;
+.slideone {
+background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
 }
-#slide_one {
-background: url(tree.jpg) center top;
+.schedule {
+background: #43ADA3 url("img/ladder-bah-humbug.jpg") no-repeat fixed left bottom;
+text-indent:350px;
+}
+.sched-hilite {
+color:yellow;
 }
 
