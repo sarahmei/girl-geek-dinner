@@ -1,11 +1,23 @@
 .slideone {
-background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
+  background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
 }
 .schedule {
-background: #43ADA3 url("img/ladder-bah-humbug.jpg") no-repeat fixed left bottom;
-text-indent:350px;
+  background: #43ADA3 url("img/ladder-bah-humbug.jpg") no-repeat fixed left bottom;
+  text-indent: 350px;
 }
 .sched-hilite {
-color:yellow;
+  color: yellow;
+}
+.centereverything {
+  text-align: center;
+}
+.def-hilite {
+  color: red;
 }
 
+.redarrowbullet ul {
+  list-style: none; 
+}
+.redarrowbullet img {
+  vertical-align: middle;
+}
