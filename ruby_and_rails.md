@@ -188,9 +188,9 @@ rake db:migrate
 
 !SLIDE
 
-* No @#$^* XML files to edit
-* No configuration of any kind
-* You can override any of the defaults
+* No @#$^*! XML files to edit.
+* "Convention over configuration."
+* Yes, all defaults can be overridden!
 
 !SLIDE
 
