@@ -38,6 +38,10 @@
   background: url("img/new_status_update.png") no-repeat fixed center;
 }
 
+.community {
+  background: url("img/railsbridge-logo.png") no-repeat fixed right top;
+}
+
 .centereverything {
   text-align: center;
 }

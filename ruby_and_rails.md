@@ -157,10 +157,12 @@ rails tweetbook
 
 <pre><code>
 cd tweetbook
+
 ruby script/generate scaffold 
   status_update 
   name:string 
   status:text
+
 rake db:migrate
 </code></pre>
 
@@ -199,6 +201,24 @@ rake db:migrate
 !SLIDE
 
 # Why not?
+
+!SLIDE community
+
+# Community
+### &nbsp;
+### &nbsp;
+
+!SLIDE community
+
+# Community
+### railsbridge.org
+### &nbsp;
+
+!SLIDE community
+
+# Community
+### railsbridge.org
+### meetup.com/sfruby
 
 !SLIDE slideone
 
