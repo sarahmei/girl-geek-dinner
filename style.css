@@ -1,32 +1,53 @@
 .slideone {
   background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
 }
-.schedule {
-  background: #43ADA3 url("img/ladder-bah-humbug.jpg") no-repeat fixed left bottom;
-  text-indent: 350px;
+
+.chibis {
+  background: url("img/chibis.jpg") no-repeat fixed center;
 }
-.sched-hilite {
-  color: yellow;
+
+.ucsd {
+  background: url("img/ucsd_slide.jpg") no-repeat fixed center;
+} 
+
+.calspace {
+  background: #d0d0d0 url("img/calspace-slide.jpg") no-repeat fixed left top;
 }
+
+.mosaic {
+  background: url("img/mosaic.jpg") no-repeat fixed center;
+}
+
+.astrocam {
+  background: url("img/astronaut-camera.jpg") no-repeat fixed center;
+}
+
+.brazil {
+  background: url("img/nasa_brazil.jpg") no-repeat fixed center;
+}
+
+.webappdiagram {
+  background: url("img/web-application.png") no-repeat fixed center;
+}
+
+.newstatusupdate {
+  background: url("img/new_status_update.png") no-repeat fixed center;
+}
+
 .centereverything {
   text-align: center;
 }
-.def-hilite {
-  color: red;
-}
 
-.redarrowbullet ul {
-  list-style: none; 
-}
-.redarrowbullet img {
-  vertical-align: middle;
+.big-text {
+  font-size: 300%;
 }
 
 .photo-credits {
   background: #ffffff;
   width: 100%;
   padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   font-size: 50%;
 }
+

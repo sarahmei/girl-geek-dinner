@@ -47,33 +47,19 @@
 </tr>
 </table>
 
-!SLIDE centereverything
+!SLIDE chibis
 
-<img src="img/chibis.jpg"> 
+!SLIDE ucsd
 
-!SLIDE
+!SLIDE calspace
 
-<img src="img/ucsd_slide.jpg">
+!SLIDE mosaic
 
-!SLIDE centereverything
+!SLIDE astrocam
 
-<img src="img/calspace-slide.jpg">
+!SLIDE brazil
 
-!SLIDE centereverything
-
-<img src="img/mosaic.jpg">
-
-!SLIDE centereverything
-
-<img src="img/astronaut-camera.jpg">
-
-!SLIDE centereverything
-
-<img src="img/nasa_brazil.jpg">
-
-!SLIDE
-
-<img src="img/web-application.png">
+!SLIDE webappdiagram
 
 !SLIDE
 
@@ -108,10 +94,10 @@
 </tr>
 <tr>
 <td align="center">
-<font size="15">Language</font>
+<span class="big-text">Language</span>
 </td>
 <td align="center">
-<font size="15">Framework</font>
+<span class="big-text">Framework</span>
 </td>
 </tr>
 </table>
@@ -145,10 +131,10 @@ class HelloWorldApp {
 </tr>
 <tr>
 <td align="center">
-<font size="15">Language</font>
+<span class="big-text">Language</span>
 </td>
 <td align="center">
-<font size="15">Framework</font>
+<span class="big-text">Framework</span>
 </td>
 </tr>
 </table>
@@ -172,15 +158,16 @@ cd tweetbook
 ruby script/generate scaffold 
   status_update 
   name:string 
-  status:string
+  status:text
 rake db:migrate
 </code></pre>
 
 !SLIDE
 
 ## What does this get us?
+# &nbsp;
 * A status_updates table
-* Basic HTML pages and forms for status updates
+* Basic HTML forms for status updates
 * Everything's wired up!
 
 !SLIDE
@@ -191,9 +178,7 @@ rake db:migrate
  ruby script/server
 </code></pre>
 
-!SLIDE
-
-<img src="img/new_status_update.png">
+!SLIDE newstatusupdate
 
 !SLIDE
 
@@ -222,6 +207,8 @@ rake db:migrate
 ##### sarahmei@gmail.com
 # &nbsp;
 
-<div class="photo-credits">Photo credits: Johnson Space Center, NCSA/University of Illinois, LookSmart, David Heinemeier Hansson, Sun Microsystems, Silicon Graphics, Bjarne Stroustroup, PHP Foundation, and Flickr users thisisbossi, holderbyphotography, and geekwithoutacause.</div>
+<div class="photo-credits">
+Image credits: NASA/Johnson Space Center, NCSA/University of Illinois, David Heinemeier Hansson, Yukihiro Matsumoto, LookSmart, Sun Microsystems, Silicon Graphics, Bjarne Stroustroup, PHP Foundation, and Flickr users thisisbossi, holderbyphotography, and geekwithoutacause
+</div>
 
 
