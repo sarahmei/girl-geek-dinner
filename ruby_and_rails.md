@@ -51,6 +51,8 @@
 
 !SLIDE ucsd
 
+!SLIDE calspaceprequel
+
 !SLIDE calspace
 
 !SLIDE mosaic

@@ -10,6 +10,10 @@
   background: url("img/ucsd_slide.jpg") no-repeat fixed center;
 } 
 
+.calspaceprequel {
+  background: url("img/calspace-slide-prequel.jpg") no-repeat fixed left top;
+}
+
 .calspace {
   background: #d0d0d0 url("img/calspace-slide.jpg") no-repeat fixed left top;
 }

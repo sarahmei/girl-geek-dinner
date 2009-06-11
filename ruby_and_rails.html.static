@@ -132,6 +132,10 @@ ul {
   background: url("img/ucsd_slide.jpg") no-repeat fixed center;
 } 
 
+.calspaceprequel {
+  background: url("img/calspace-slide-prequel.jpg") no-repeat fixed left top;
+}
+
 .calspace {
   background: #d0d0d0 url("img/calspace-slide.jpg") no-repeat fixed left top;
 }
@@ -4932,38 +4936,44 @@ jQuery.extend( jQuery.easing,
             </div>
           </div>
         
-          <div class=" calspace">
+          <div class=" calspaceprequel">
             <div id="slide-6" class="content">
               
             </div>
           </div>
         
-          <div class=" mosaic">
+          <div class=" calspace">
             <div id="slide-7" class="content">
               
             </div>
           </div>
         
-          <div class=" astrocam">
+          <div class=" mosaic">
             <div id="slide-8" class="content">
               
             </div>
           </div>
         
-          <div class=" brazil">
+          <div class=" astrocam">
             <div id="slide-9" class="content">
               
             </div>
           </div>
         
-          <div class=" webappdiagram">
+          <div class=" brazil">
             <div id="slide-10" class="content">
               
             </div>
           </div>
         
-          <div class="">
+          <div class=" webappdiagram">
             <div id="slide-11" class="content">
+              
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-12" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -4983,7 +4993,7 @@ jQuery.extend( jQuery.easing,
           </div>
         
           <div class="">
-            <div id="slide-12" class="content">
+            <div id="slide-13" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -5007,13 +5017,13 @@ jQuery.extend( jQuery.easing,
           </div>
         
           <div class="">
-            <div id="slide-13" class="content">
+            <div id="slide-14" class="content">
               <code>puts "Hello, world!"</code>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-14" class="content">
+            <div id="slide-15" class="content">
               <b><pre><code><font size="6">
 class HelloWorldApp {
  public static void main(String[] args) {
@@ -5025,7 +5035,7 @@ class HelloWorldApp {
           </div>
         
           <div class="">
-            <div id="slide-15" class="content">
+            <div id="slide-16" class="content">
               <table width="100%">
 <tr>
 <td align="center">
@@ -5049,7 +5059,7 @@ class HelloWorldApp {
           </div>
         
           <div class="">
-            <div id="slide-16" class="content">
+            <div id="slide-17" class="content">
               <h2 id="step_1">Step 1:</h2><pre><code>
 rails tweetbook
 </code></pre>
@@ -5057,7 +5067,7 @@ rails tweetbook
           </div>
         
           <div class="">
-            <div id="slide-17" class="content">
+            <div id="slide-18" class="content">
               <h2 id="step_2">Step 2:</h2><pre><code>
 cd tweetbook
 ruby script/generate scaffold 
@@ -5070,7 +5080,7 @@ rake db:migrate
           </div>
         
           <div class="">
-            <div id="slide-18" class="content">
+            <div id="slide-19" class="content">
               <h2 id="what_does_this_get_us">What does this get us?</h2><h1 id="id9">&nbsp;</h1><ul>
 <li>A status_updates table</li>
 
@@ -5082,7 +5092,7 @@ rake db:migrate
           </div>
         
           <div class="">
-            <div id="slide-19" class="content">
+            <div id="slide-20" class="content">
               <h2 id="step_3">Step 3:</h2><pre><code>
  ruby script/server
 </code></pre>
@@ -5090,19 +5100,19 @@ rake db:migrate
           </div>
         
           <div class=" newstatusupdate">
-            <div id="slide-20" class="content">
+            <div id="slide-21" class="content">
               
             </div>
           </div>
         
           <div class="">
-            <div id="slide-21" class="content">
+            <div id="slide-22" class="content">
               <h2 id="crud">CRUD</h2>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-22" class="content">
+            <div id="slide-23" class="content">
               <ul>
 <li>No @#$^* XML files to edit</li>
 
@@ -5114,19 +5124,19 @@ rake db:migrate
           </div>
         
           <div class="">
-            <div id="slide-23" class="content">
+            <div id="slide-24" class="content">
               <h1 id="why_rails">Why Rails?</h1>
             </div>
           </div>
         
           <div class="">
-            <div id="slide-24" class="content">
+            <div id="slide-25" class="content">
               <h1 id="why_not">Why not?</h1>
             </div>
           </div>
         
           <div class=" slideone">
-            <div id="slide-25" class="content">
+            <div id="slide-26" class="content">
               <h2 id="thank_you">Thank you!</h2><h2 id="id10">&nbsp;</h2><h4 id="sarah_mei">Sarah Mei</h4><h5 id="sarahmei">@sarahmei</h5><h5 id="sarahmeigmailcom">sarahmei@gmail.com</h5><h1 id="id11">&nbsp;</h1><div class="photo-credits">
 Image credits: NASA/Johnson Space Center, NCSA/University of Illinois, David Heinemeier Hansson, Yukihiro Matsumoto, LookSmart, Sun Microsystems, Silicon Graphics, Bjarne Stroustroup, PHP Foundation, and Flickr users thisisbossi, holderbyphotography, and geekwithoutacause
 </div>
