@@ -29,6 +29,20 @@
 </tr>
 </table>
 
+!SLIDE chibis
+
+!SLIDE
+
+<table height="100%">
+<tr>
+<td valign="top">
+&nbsp;<br/>
+<img src="img/looksmart.gif"><br/>
+<img src="img/rails_logo.jpg" height="250">
+</td>
+</tr>
+</table>
+
 !SLIDE
 
 <table height="100%">
@@ -46,8 +60,6 @@
 </td>
 </tr>
 </table>
-
-!SLIDE chibis
 
 !SLIDE ucsd
 
