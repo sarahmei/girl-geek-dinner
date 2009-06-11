@@ -1,44 +1,17 @@
 !SLIDE slideone
 
 ## Ruby on Rails
+## &nbsp;
 ####Sarah Mei
+#####@sarahmei
 #####sarahmei@gmail.com
 
-!SLIDE schedule
-
-## 1 min: Me
-## 4 min: Ruby
-## 4 min: Rails
-## 1 min: Wrapup
-
-!SLIDE schedule
-
-## <span class="sched-hilite">1 min: Me</span>
-## 4 min: Ruby
-## 4 min: Rails
-## 1 min: Wrapup
-
 !SLIDE
 
-<table>
+<table height="100%">
 <tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
 <td valign="top">
-&nbsp;
-</td>
-</tr>
-</table>
-
-!SLIDE
-
-<table>
-<tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
+&nbsp;<br/>
 <img src="img/looksmart.gif">
 </td>
 </tr>
@@ -46,67 +19,37 @@
 
 !SLIDE
 
-<table>
+<table height="100%">
 <tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
 <td valign="top">
+&nbsp;<br/>
 <img src="img/looksmart.gif"><br/>
-<img src="img/rails_logo.jpg" height="100">
+<img src="img/rails_logo.jpg" height="250">
 </td>
 </tr>
 </table>
 
 !SLIDE
 
-<table>
+<table height="100%">
 <tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
 <td valign="top">
+&nbsp;<br/>
 <img src="img/looksmart.gif"><br/>
-<img src="img/rails_logo.jpg" height="100">
+<img src="img/rails_logo.jpg" height="250"><br/>
 <img src="img/duke.png" height="100">
-</td>
-</tr>
-</table>
-
-!SLIDE
-
-<table>
-<tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br/>
-<img src="img/rails_logo.jpg" height="100">
-<img src="img/duke.png" height="100"><br/>
 <img src="img/javascript_dialog.png" height="100">
-</td>
-</tr>
-</table>
-
-!SLIDE
-
-<table>
-<tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br/>
-<img src="img/rails_logo.jpg" height="100">
-<img src="img/duke.png" height="100"><br/>
-<img src="img/javascript_dialog.png" height="100"><br/>
 <img src="img/opengl.png" height="100"><br/>
 <img src="img/c_plus_plus.jpg" height="100">
 <img src="img/php_logo.jpg" height="100">
+<H1>(etc.)</H1>
 </td>
 </tr>
 </table>
+
+!SLIDE centereverything
+
+<img src="img/chibis.jpg"> 
 
 !SLIDE
 
@@ -114,11 +57,7 @@
 
 !SLIDE centereverything
 
-<img src="img/function.jpg">
-
-!SLIDE centereverything
-
-<img src="img/approximated-integral.jpg">
+<img src="img/calspace-slide.jpg">
 
 !SLIDE centereverything
 
@@ -126,18 +65,58 @@
 
 !SLIDE centereverything
 
-<img src="img/nasa_brazil.jpg">
-
-!SLIDE schedule
-
-## 1 min: Me
-## <span class="sched-hilite">4 min: Ruby</span>
-## 4 min: Rails
-## 1 min: Wrapup
+<img src="img/astronaut-camera.jpg">
 
 !SLIDE centereverything
 
-<img src="img/ruby-logo.jpg">
+<img src="img/nasa_brazil.jpg">
+
+!SLIDE
+
+<img src="img/web-application.png">
+
+!SLIDE
+
+<table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+# &nbsp;
+# &nbsp;
+# &nbsp;
+
+!SLIDE
+
+<table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td align="center">
+<font size="15">Language</font>
+</td>
+<td align="center">
+<font size="15">Framework</font>
+</td>
+</tr>
+</table>
+# &nbsp;
+# &nbsp;
 
 !SLIDE
 
@@ -145,7 +124,6 @@
 
 !SLIDE
 
-# Hello World
 <b><pre><code><font size="6">
 class HelloWorldApp {
  public static void main(String[] args) {
@@ -156,166 +134,94 @@ class HelloWorldApp {
 
 !SLIDE
 
-<code>puts "Hello, world!"</code>
-
-!SLIDE schedule
-
-## 1 min: Me
-## 4 min: Ruby
-## <span class="sched-hilite">4 min: Rails</span>
-## 1 min: Wrapup
-
-!SLIDE centereverything
-
 <table width="100%">
 <tr>
-<td>
+<td align="center">
 <img src="img/ruby-logo.jpg" width="250">
 </td>
-<td align="right">
-&nbsp;
-</td>
-</tr>
-</table>
-
-!SLIDE
-
-<table width="100%">
-<tr>
-<td>
-<img src="img/ruby-logo.jpg" width="250">
-</td>
-<td align="right">
+<td align="center">
 <img src="img/rails_logo.jpg">
 </td>
 </tr>
+<tr>
+<td align="center">
+<font size="15">Language</font>
+</td>
+<td align="center">
+<font size="15">Framework</font>
+</td>
+</tr>
 </table>
+# &nbsp;
+# &nbsp;
 
 !SLIDE
 
-### A dynamic, open source, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
+## Step 1:
 
-!SLIDE
-
-### A dynamic, open source, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-<code>puts "Hello, world!"</code>
-#&nbsp;
-#&nbsp;
-#&nbsp;
-
-!SLIDE
-
-
-
-
-### A <span class="def-hilite">dynamic</span>, open source, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
-
-!SLIDE
-
-### A <span class="def-hilite">dynamic</span>, open source, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
 <pre><code>
-my_variable = "Hello"
-my_variable = 5
+rails tweetbook
 </code></pre>
-#&nbsp;
-#&nbsp;
-#&nbsp;
-
 
 !SLIDE
 
-### A dynamic, <span class="def-hilite">open source</span>, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
+## Step 2: 
+
+<pre><code>
+cd tweetbook
+ruby script/generate scaffold 
+  status_update 
+  name:string 
+  status:string
+rake db:migrate
+</code></pre>
 
 !SLIDE
 
-### A dynamic, open source, 
-### <span class="def-hilite">object-oriented</span> programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-<code>5.times { print "Taxi!!" } </code>
-#&nbsp;
-#&nbsp;
-#&nbsp;
+## What does this get us?
+* A status_updates table
+* Basic HTML pages and forms for status updates
+* Everything's wired up!
 
 !SLIDE
 
-### A dynamic, open source, 
-### object-oriented programming language focused on 
-### <span class="def-hilite">simplicity</span> and <span class="def-hilite">productivity</span>. 
-#&nbsp;
-<code>
-cities  = %w[ London
-              Oslo
-              Paris
-              Amsterdam
-              Berlin ]
-visited = %w[Berlin Oslo]
- 
-puts "I still need to visit the following cities:",
-     cities - visited
-</code>
-#&nbsp;
-#&nbsp;
-#&nbsp;
+## Step 3:
 
-
-
-
-
-
+<pre><code>
+ ruby script/server
+</code></pre>
 
 !SLIDE
 
-<code>puts "Hello world!"</code>
+<img src="img/new_status_update.png">
 
 !SLIDE
 
-<code>
-north_america = ["USA", "Canada", "Mexico"]
-central_america = ["Guatamala", 
-
-visited = ["USA", "Canada", "Mexico", "Netherlands", "Japan", "Ghana"]
-</code>
-
-
-
+## CRUD
 
 !SLIDE
+
+* No @#$^* XML files to edit
+* No configuration of any kind
+* You can override any of the defaults
+
 !SLIDE
 
-### A <span class="def-hilite">dynamic</span>, open source, 
-### object-oriented programming language focused on 
-### simplicity and productivity. 
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
-#&nbsp;
+# Why Rails?
+
+!SLIDE
+
+# Why not?
+
+!SLIDE slideone
+
+## Thank you!
+## &nbsp;
+#### Sarah Mei
+##### @sarahmei
+##### sarahmei@gmail.com
+# &nbsp;
+
+<div class="photo-credits">Photo credits: Johnson Space Center, NCSA/University of Illinois, LookSmart, David Heinemeier Hansson, Sun Microsystems, Silicon Graphics, Bjarne Stroustroup, PHP Foundation, and Flickr users thisisbossi, holderbyphotography, and geekwithoutacause.</div>
+
 
