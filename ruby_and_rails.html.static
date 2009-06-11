@@ -5114,11 +5114,11 @@ rake db:migrate
           <div class="">
             <div id="slide-23" class="content">
               <ul>
-<li>No @#$^* XML files to edit</li>
+<li>No @#^$! XML files to edit.</li>
 
-<li>No configuration of any kind</li>
+<li>&ldquo;Convention over configuration.&rdquo;</li>
 
-<li>You can override any of the defaults</li>
+<li>Yes, all defaults can be overridden!</li>
 </ul>
             </div>
           </div>
