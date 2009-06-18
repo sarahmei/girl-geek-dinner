@@ -1,0 +1,61 @@
+.slideone {
+  background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
+}
+
+.chibis {
+  background: url("img/chibis.jpg") no-repeat fixed center;
+}
+
+.ucsd {
+  background: url("img/ucsd_slide.jpg") no-repeat fixed center;
+} 
+
+.calspaceprequel {
+  background: url("img/calspace-slide-prequel.jpg") no-repeat fixed left top;
+}
+
+.calspace {
+  background: #d0d0d0 url("img/calspace-slide.jpg") no-repeat fixed left top;
+}
+
+.mosaic {
+  background: url("img/mosaic.jpg") no-repeat fixed center;
+}
+
+.astrocam {
+  background: url("img/astronaut-camera.jpg") no-repeat fixed center;
+}
+
+.brazil {
+  background: url("img/nasa_brazil.jpg") no-repeat fixed center;
+}
+
+.webappdiagram {
+  background: url("img/web-application.png") no-repeat fixed center;
+}
+
+.newstatusupdate {
+  background: url("img/new_status_update.png") no-repeat fixed center;
+}
+
+.community {
+  background: url("img/railsbridge-logo.png") no-repeat fixed right top;
+}
+
+.centereverything {
+  text-align: center;
+}
+
+.big-text {
+  font-size: 300%;
+}
+
+.photo-credits {
+  background: #ffffff;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 50%;
+}
+
