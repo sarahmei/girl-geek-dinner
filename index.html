@@ -121,14 +121,60 @@ ul {
     
       <style type="text/css" media="screen">
         .slideone {
-background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
+  background: #DFDFDF url("img/slideone.jpg") no-repeat fixed right;
 }
-.schedule {
-background: #43ADA3 url("img/ladder-bah-humbug.jpg") no-repeat fixed left bottom;
-text-indent:350px;
+
+.chibis {
+  background: url("img/chibis.jpg") no-repeat fixed center;
 }
-.sched-hilite {
-color:yellow;
+
+.ucsd {
+  background: url("img/ucsd_slide.jpg") no-repeat fixed center;
+} 
+
+.calspaceprequel {
+  background: url("img/calspace-slide-prequel.jpg") no-repeat fixed left top;
+}
+
+.calspace {
+  background: #d0d0d0 url("img/calspace-slide.jpg") no-repeat fixed left top;
+}
+
+.mosaic {
+  background: url("img/mosaic.jpg") no-repeat fixed center;
+}
+
+.astrocam {
+  background: url("img/astronaut-camera.jpg") no-repeat fixed center;
+}
+
+.brazil {
+  background: url("img/nasa_brazil.jpg") no-repeat fixed center;
+}
+
+.webappdiagram {
+  background: url("img/web-application.png") no-repeat fixed center;
+}
+
+.newstatusupdate {
+  background: url("img/new_status_update.png") no-repeat fixed center;
+}
+
+.centereverything {
+  text-align: center;
+}
+
+.big-text {
+  font-size: 300%;
+}
+
+.photo-credits {
+  background: #ffffff;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 50%;
 }
 
 
@@ -4778,7 +4824,7 @@ jQuery.extend( jQuery.easing,
     var index = getIndex();
     var offset = (index || 0) * dimensions.width;
     
-    $('#track').animate({ marginLeft: '-' + offset + 'px' }, 200);
+    $('#track').animate({ marginLeft: '-' + offset + 'px' }, 0);
   }
   
   var verticalAlign = function() {
@@ -4809,7 +4855,7 @@ jQuery.extend( jQuery.easing,
   
   var move = function(event) {
     var DIRECTIONS = {
-      1: -1,  // LEFT MOUSE BTN
+      1: 1,   // LEFT MOUSE BTN
       3: 1,   // RIGHT MOUSE BTN
       37: -1, // ARROW LEFT
       39: 1,  // ARROW RIGHT
@@ -4844,108 +4890,256 @@ jQuery.extend( jQuery.easing,
         
           <div class=" slideone">
             <div id="slide-0" class="content">
-              <h2 id="ruby_on_rails">Ruby on Rails</h2><h4 id="sarah_mei">Sarah Mei</h4><h5 id="sarahmeigmailcom">sarahmei@gmail.com</h5>
+              <h2 id="ruby_on_rails">Ruby on Rails</h2><h2 id="id1">&nbsp;</h2><h4 id="sarah_mei">Sarah Mei</h4><h5 id="sarahmei">@sarahmei</h5><h5 id="sarahmeigmailcom">sarahmei@gmail.com</h5>
             </div>
           </div>
         
-          <div class=" schedule">
+          <div class="">
             <div id="slide-1" class="content">
-              <h2 id="1_min_me">1 min: Me</h2><h2 id="4_min_ruby">4 min: Ruby</h2><h2 id="4_min_rails">4 min: Rails</h2><h2 id="1_min_wrapup">1 min: Wrapup</h2>
+              <table height="100%"><tr>
+<td valign="top">
+&nbsp;<br><img src="img/looksmart.gif">
+</td>
+</tr></table>
             </div>
           </div>
         
-          <div class=" schedule">
+          <div class="">
             <div id="slide-2" class="content">
-              <h2 id="id1"><span class="sched-hilite">1 min: Me</span></h2><h2 id="4_min_ruby">4 min: Ruby</h2><h2 id="4_min_rails">4 min: Rails</h2><h2 id="1_min_wrapup">1 min: Wrapup</h2>
+              <table height="100%"><tr>
+<td valign="top">
+&nbsp;<br><img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="250">
+</td>
+</tr></table>
             </div>
           </div>
         
           <div class="">
             <div id="slide-3" class="content">
-              <img src="img/sarah-gabriel-oreilly.jpg">
+              <table height="100%"><tr>
+<td valign="top">
+&nbsp;<br><img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="250"><br><img src="img/duke.png" height="100"><img src="img/javascript_dialog.png" height="100"><img src="img/opengl.png" height="100"><br><img src="img/c_plus_plus.jpg" height="100"><img src="img/php_logo.jpg" height="100"><h1>(etc.)</h1>
+</td>
+</tr></table>
             </div>
           </div>
         
-          <div class="">
+          <div class=" chibis">
             <div id="slide-4" class="content">
-              <table><tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif">
-</td>
-</tr></table>
+              
             </div>
           </div>
         
-          <div class="">
+          <div class=" ucsd">
             <div id="slide-5" class="content">
-              <table><tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="100">
-</td>
-</tr></table>
+              
             </div>
           </div>
         
-          <div class="">
+          <div class=" calspaceprequel">
             <div id="slide-6" class="content">
-              <table><tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="100"><img src="img/duke.png" height="100">
-</td>
-</tr></table>
+              
             </div>
           </div>
         
-          <div class="">
+          <div class=" calspace">
             <div id="slide-7" class="content">
-              <table><tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="100"><img src="img/duke.png" height="100"><br><img src="img/javascript_dialog.png" height="100">
-</td>
-</tr></table>
+              
             </div>
           </div>
         
-          <div class="">
+          <div class=" mosaic">
             <div id="slide-8" class="content">
-              <table><tr>
-<td>
-<img src="img/sarah-gabriel-oreilly.jpg">
-</td>
-<td valign="top">
-<img src="img/looksmart.gif"><br><img src="img/rails_logo.jpg" height="100"><img src="img/duke.png" height="100"><br><img src="img/javascript_dialog.png" height="100"><br><img src="img/opengl.png" height="100"><br><img src="img/c_plus_plus.jpg" height="100"><img src="img/php_logo.jpg" height="100">
-</td>
-</tr></table>
+              
             </div>
           </div>
         
-          <div class="">
+          <div class=" astrocam">
             <div id="slide-9" class="content">
-              <img src="img/mosaic.jpg">
+              
+            </div>
+          </div>
+        
+          <div class=" brazil">
+            <div id="slide-10" class="content">
+              
+            </div>
+          </div>
+        
+          <div class=" webappdiagram">
+            <div id="slide-11" class="content">
+              
             </div>
           </div>
         
           <div class="">
-            <div id="slide-10" class="content">
-              <img src="img/nasa_brazil.jpg">
+            <div id="slide-12" class="content">
+              <table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<h1 id="id2">&nbsp;</h1><h1 id="id3">&nbsp;</h1><h1 id="id4">&nbsp;</h1>
             </div>
           </div>
         
-          <div class=" schedule">
-            <div id="slide-11" class="content">
-              <h2 id="1_min_me">1 min: Me</h2><h2 id="id2"><span class="sched-hilite">4 min: Ruby</span></h2><h2 id="4_min_rails">4 min: Rails</h2><h2 id="1_min_wrapup">1 min: Wrapup</h2>
+          <div class="">
+            <div id="slide-13" class="content">
+              <table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td align="center">
+<span class="big-text">Language</span>
+</td>
+<td align="center">
+<span class="big-text">Framework</span>
+</td>
+</tr>
+</table>
+<h1 id="id5">&nbsp;</h1><h1 id="id6">&nbsp;</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-14" class="content">
+              <code>puts "Hello, world!"</code>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-15" class="content">
+              <b><pre><code><font size="6">
+class HelloWorldApp {
+ public static void main(String[] args) {
+  System.out.println("Hello, world!");
+ }
+}
+</font></code></pre></b>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-16" class="content">
+              <table width="100%">
+<tr>
+<td align="center">
+<img src="img/ruby-logo.jpg" width="250">
+</td>
+<td align="center">
+<img src="img/rails_logo.jpg">
+</td>
+</tr>
+<tr>
+<td align="center">
+<span class="big-text">Language</span>
+</td>
+<td align="center">
+<span class="big-text">Framework</span>
+</td>
+</tr>
+</table>
+<h1 id="id7">&nbsp;</h1><h1 id="id8">&nbsp;</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-17" class="content">
+              <h2 id="step_1">Step 1:</h2><pre><code>
+rails tweetbook
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-18" class="content">
+              <h2 id="step_2">Step 2:</h2><pre><code>
+cd tweetbook
+ruby script/generate scaffold 
+  status_update 
+  name:string 
+  status:text
+rake db:migrate
+</code></pre>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-19" class="content">
+              <h2 id="what_does_this_get_us">What does this get us?</h2><h1 id="id9">&nbsp;</h1><ul>
+<li>A status_updates table</li>
+
+<li>Basic HTML forms for status updates</li>
+
+<li>Everything&rsquo;s wired up!</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-20" class="content">
+              <h2 id="step_3">Step 3:</h2><pre><code>
+ ruby script/server
+</code></pre>
+            </div>
+          </div>
+        
+          <div class=" newstatusupdate">
+            <div id="slide-21" class="content">
+              
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-22" class="content">
+              <h2 id="crud">CRUD</h2>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-23" class="content">
+              <ul>
+<li>No @#^$! XML files to edit.</li>
+
+<li>&ldquo;Convention over configuration.&rdquo;</li>
+
+<li>Yes, all defaults can be overridden!</li>
+</ul>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-24" class="content">
+              <h1 id="why_rails">Why Rails?</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-25" class="content">
+              <h1 id="why_not">Why not?</h1>
+            </div>
+          </div>
+        
+          <div class=" slideone">
+            <div id="slide-26" class="content">
+              <h2 id="thank_you">Thank you!</h2><h2 id="id10">&nbsp;</h2><h4 id="sarah_mei">Sarah Mei</h4><h5 id="sarahmei">@sarahmei</h5><h5 id="sarahmeigmailcom">sarahmei@gmail.com</h5><h1 id="id11">&nbsp;</h1><div class="photo-credits">
+Image credits: NASA/Johnson Space Center, NCSA/University of Illinois, David Heinemeier Hansson, Yukihiro Matsumoto, LookSmart, Sun Microsystems, Silicon Graphics, Bjarne Stroustroup, PHP Foundation, and Flickr users thisisbossi, holderbyphotography, and geekwithoutacause
+</div>
             </div>
           </div>
         
